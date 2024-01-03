@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageVersion Include="CopyOnWrite" Version="0.3.7" Condition=" '$(TargetFramework)' != 'net46' " />
     <PackageVersion Include="Microsoft.Build.Tasks.Core" Version="$(MicrosoftBuildPackageVersion)" />
+    <PackageVersion Include="Microsoft.TemplateEngine.Authoring.TemplateVerifier" Version="8.0.100" />
     <PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
     <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageVersion Include="System.CodeDom" Version="7.0.0" />
