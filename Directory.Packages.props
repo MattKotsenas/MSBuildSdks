@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageVersion Include="CopyOnWrite" Version="0.3.7" Condition=" '$(TargetFramework)' != 'net46' " />
     <PackageVersion Include="Microsoft.Build.Tasks.Core" Version="$(MicrosoftBuildPackageVersion)" />
-    <PackageVersion Include="Microsoft.TemplateEngine.Authoring.TemplateVerifier" Version="8.0.100" />
+    <PackageVersion Include="Microsoft.TemplateEngine.Tasks" Version="7.0.115" />
     <PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
     <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageVersion Include="System.CodeDom" Version="7.0.0" />
@@ -19,6 +19,7 @@
   <ItemGroup Condition="'$(IsTestProject)' == 'true'">
     <PackageVersion Include="AssemblyShader" Version="1.0.3-preview" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageVersion Include="Microsoft.TemplateEngine.Authoring.TemplateVerifier" Version="8.0.100" />
     <PackageVersion Include="MSBuild.ProjectCreation" Version="10.0.0" />
     <PackageVersion Include="Shouldly" Version="4.2.1" />
     <PackageVersion Include="xunit" Version="2.6.4" />
